@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sign.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signin">
+        
+        <form>
+            <h1>Sign In</h1>
+            <input class="first" type="email" required placeholder="Enter your email" >
+            <input class="second" type="password" required placeholder="Enter your password">
+            <a href="">Sign In</a>
+        </form>
+    </div>
+    
+</body>
+<script>
+    let a=document.querySelector('.first')
+    let b=document.querySelector('.second')
+    let c=document.querySelector('a')
+    if(a.value==" "){
+        alert("please Enter email")
+    }
+    if(b.value==" "){
+        alert("please enter your password")
+    }
+    c.addEventListener('click',()=>{
+      
+   
+   
+      c.href='../start/start.html'
+
+  })
+  
+</script>
+
+</html>

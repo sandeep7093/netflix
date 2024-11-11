@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+.signin{
+    background-image: url(../images/netlfixbg2.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: white;
+}
+form{
+    border: 2px  solid rgb(86, 84, 84);
+    width:400px;
+    height:400px;
+    padding: 10px;;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+
+
+}
+input{
+    width:80%;
+    height: 40px;
+    border: 0;
+    margin: 30px;
+    background-color: rgb(46, 45, 45);
+    font-size: 20px;
+}
+a{
+    
+    text-decoration: none;
+    margin: 30px;
+    
+    
+    background-color: red;
+    
+    display: block;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+
+
+
+    
+    
+
+    font-size: 20px;
+    color: white;
+
+}
+h1{
+    text-align: center;
+}
+@media (max-width:460px) {
+    form{
+        width:100%;
+
+    }
+    
+}

@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+    
+    
+    
+}
+nav{
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    position:sticky;
+    top:0;
+    height:100px;
+    
+    
+
+    font-size: 20px;
+    
+}.logo img{
+    width:100px;
+
+}
+.join a{
+    border: 0.5px solid red;;
+    text-decoration: none;
+    padding: 7px;
+    
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    
+    
+}
+.join{
+    margin-top:15px;
+    position: absolute;
+    right:150px;
+    top:3px;
+    
+}
+.sign a{
+    text-decoration: none;
+    border: 0.2px solid white;
+    color: white;
+    padding: 7px;
+
+    
+}
+.sign{
+    margin-top: 15px;
+    position: absolute;
+    right: 20px;
+    top:3px;
+    
+    
+}
+.head h1{
+    color: white;
+    font-size: 16px;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}.head{
+    position: absolute;
+    right: 300px;margin-top: 5px;
+}
+/* navbar media queries */
+@media  (max-width:460px) {
+    .head{
+        display: none;
+    }.sign{
+        position: absolute;
+        right:10px;
+    }
+    nav{
+        width:100%;
+    }
+    .join{
+        position: absolute;
+        right:100px;
+    }
+    .movies{
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction:row;
+        gap:20px;
+        width: 100%;
+
+    }
+
+}
+section .h1{
+    color: white;
+    font-size:16px;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.h1{
+    text-align: center;
+
+}
+.recent {
+    display: flex;
+    text-align: center;
+    gap:100px;;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 img{
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.card1:hover{
+    transform: scale(0.9,0.9);
+
+}
+.card1 p{
+    color: yellow;
+    font-size:16px;
+}
+.hollywood h1{
+    text-align: center;
+    color:white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.indian h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    background-color: rgb(16, 15, 15);
+}
+.theory{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height:400px;
+    gap: 20px;;
+
+flex-wrap: wrap
+;
+background-color: rgb(60, 59, 59);}
+.theory h1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.theory p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;border: 0.5px solid red;
+    background-color: red;
+    padding:10px;
+    border-radius:4px;;
+    
+}
+footer{
+    display: flex;
+    height: 250px;
+    padding:10px;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(37, 34, 34);
+}
+
+ 
+li{
+    list-style: none;margin-top: 20px;
+    font-size:15px;
+
+}
+li:hover{
+    text-decoration: underline;
+    color: red;
+}

@@ -1,0 +1,69 @@
+.sign{
+    background-image: url(../images/netlfixbg2.jpg);
+    height:140vh;
+    background-size: cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+form{
+    overflow: hidden;
+    border: 0.5px solid black;
+    background-color: rgb(42, 41, 41);
+    width:450px;
+    position: relative;
+    height: 450px;
+    top:100px;
+    border-radius: 20px;
+    
+
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+input{
+    width:80%;
+    font-size: 20px;
+    color: white;
+    
+    height:40px;
+    border: 0;
+    margin:20px;
+    margin-left: 40px;
+    background-color: rgb(41, 41, 41);    
+
+}
+button{
+    width:80%;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 50px;background-color: red;
+    color: white;
+    font-size:19px;
+    border-radius: 10px;;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width:460px) {
+    form{
+        width:100%;
+        border-radius: 20px;
+        margin: 10px;
+        position: relative;
+        
+    }
+    
+}
